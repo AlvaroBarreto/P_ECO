@@ -1,0 +1,268 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[left=1.5cm,top=1cm,right=1.5cm,bottom=60pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb ,amsfonts,xcolor,tikz}
+\usepackage{multicol}
+\usepackage[shortlabels]{enumitem}
+\usepackage{eso-pic}
+\usetikzlibrary{calc}
+
+\definecolor{oroUnam}{rgb}{0.835, 0.624, 0.0588}
+\definecolor{azulUnam}{rgb}{0, 0.24, 0.47}
+\definecolor{gris}{RGB}{195, 195, 195}
+
+\newcommand{\sect}[1]{
+	\begin{tcolorbox}[colframe= white,top=2pt, bottom=2pt, colback = gris]
+	 \textbf{#1} %\centering
+    \end{tcolorbox}
+ }
+
+\setlength{\columnsep}{30pt}
+\setlength{\columnseprule}{0.2pt}
+\setlength{\parindent}{0pt}%
+
+
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox[auto counter ]{Exercice}[1][]{
+    enhanced,left=0pt,top=8pt,frame hidden,bottom=0pt,before upper={\hspace*{1cm}},
+    colback=white,
+    interior code app= {\node[fill=gris, anchor=west,text width=0.5cm,text badly centered]at ([shift={(0.1,-0.5)}]frame.north west){{\large\color{white} \textbf{\centering\thetcbcounter}}};},nobeforeafter}
+
+
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay]
+
+\node[fill=gris,
+rectangle,
+text width = 5cm,
+anchor= west, 
+inner xsep= 0.5cm, inner ysep=0.3cm](A) at([shift={(0.99,-1)}]current page.north west){{\Large \textbf{\sffamily\color{white} Hoja de ejercicios }}};  
+
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[remember picture, overlay]
+	
+	% Barra azul 
+
+	\fill[azulUnam] (current page.north west)rectangle([shift={(1,0)}]current page.south west);
+	
+	\draw[line width= 3.8pt,oroUnam] ($(A.north west)!9!(A.south west)$ )--++(-2.5,0) ;
+	
+	\draw[line width= 3.8pt,oroUnam] ($(A.north west)!18!(A.south west)$ )--++(-2.5,0) ;
+	
+	% MATEM\'ATICAS PARA EL LABORATORIO
+	
+	\node[white,rotate=90] at([shift={(0.5,-5.33)}]current page.north west){{\Large \textbf{\sffamily Matem\'aticas para el laboratorio}}};
+	
+	% ECOFISIOLOG\'IA
+	
+	\node[white,rotate=90] at([shift={(0.5,-15.66)}]current page.north west){{\Large \textbf{\sffamily Ecofisiolog\'ia}}};
+	
+	% DR. ALVARO BARRETO
+	
+	\node[white,rotate=90] at([shift={(0.5,-25)}]current page.north west){{\Large \textbf{\sffamily Dr. Alvaro Barreto}}};   
+
+\end{tikzpicture}
+
+\begin{multicols}{2}
+    \raggedcolumns
+    
+\sect{Notaci\'on cient\'ifica}
+
+\begin{Exercice} Redondear los resultados de los siguientes c\'alculos de manera que refleje el nivel m\'as bajo de precisi\'on.
+	
+	\begin{enumerate}[1)]
+		\item $250.00 + 150.1$
+		\item $742.8901 - 358.002$
+		\item $0.155 \div 2.1$
+		\item $7.514 \times 27.195$
+	\end{enumerate}
+	
+\end{Exercice}
+    
+\begin{Exercice} Transformar los siguientes valores en notaci\'on cient\'ifica.
+     	
+\begin{enumerate}[1)]
+	\item $0.00078$
+	\item $0.265$	
+	\item $00.00000010001$
+	\item $10760000.00$
+	\item $24202500$
+	\item $1000100000$
+	\item $28.04 \times 10^{5}$
+	\item $13.406 \times 10^{-4}$
+\end{enumerate}
+
+\end{Exercice}
+
+\begin{Exercice} Realice los siguientes c\'alculos en notaci\'on cienti
+	
+	\begin{enumerate}[1)]
+		\item 
+	\end{enumerate}
+
+\end{Exercice}
+
+    \sect{Correlated Brownian motion.}
+
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    
+\end{enumerate}
+\end{Exercice}
+
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\begin{Exercice}math math math math math math math math math math math math math math math
+\begin{enumerate}[label=\textbf{\color{gris}\arabic*.}]
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+    \item math math math math
+\end{enumerate}
+\end{Exercice}
+\end{multicols}
+\end{document} 

@@ -1,0 +1,306 @@
+\documentclass[12pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish, es-nodecimaldot]{babel}
+\uselanguage{spanish}
+\languagepath{spanish}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{ragged2e}
+\renewcommand{\arraystretch}{1.2}
+
+\useinnertheme{rounded} %rectangles, rounded, inmargin, circles
+\usetheme{Dresden} %Hannover AnnArbor CambridgeUS Dresden
+%\usecolortheme{seahorse}
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+			\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+			\insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+	\end{beamercolorbox}}%
+	\vskip0pt%
+}
+\makeatother
+
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\definecolor{LightViolet}{RGB}{230,220,255}
+\setbeamercolor{frametitle}{bg=LightViolet}
+
+\definecolor{NormalBlue}{RGB}{200,200,255}
+\setbeamercolor{block title}{bg=NormalBlue}
+
+\definecolor{LightBlue}{RGB}{220,220,255}
+\setbeamercolor{block body}{bg=LightBlue}
+
+\setbeamercolor{block body example}{bg=red!20!white}
+\setbeamercolor{block title example}{fg=red, bg=red!40!white}
+
+\newcommand{\col}{\column{0.5\textwidth}}
+\newcommand{\just}{\justifying}
+
+\begin{document}
+
+% Presentaci\'on
+\author{Alvaro Barreto}
+\title{Matem\'aticas para el laboratorio}
+\subtitle{Soluciones, mezclas y medios}
+\titlegraphic{
+	\includegraphics[width=3.5cm]{ENES}
+}
+
+\begin{frame}[plain]
+	\titlepage
+\end{frame}
+
+\section{Notaci\'on cient\'ifica y prefijos m\'etricos}
+
+\begin{frame}{Tabla de contenidos}
+	\tableofcontents
+\end{frame}
+
+\begin{frame}[c]{D\'igitos significativos} \framesubtitle{Redondeo de d\'igitos}
+
+\begin{columns}
+	\col
+	\just
+	Cuando se trabaja con mediciones, debemos tener en cuenta la 
+	\alert{precisi\'on}. Por lo tanto, para cualquier c\'alculo se debe redondear para reflejar el nivel m\'as bajo de precisi\'on. 
+		
+	\col
+	
+	\begin{block}{Gu\'ia} \just
+		Para toda operaci\'on aritm\'etica, el resultado debe ser redondeado para que tenga el mismo n\'umero de d\'igitos significativos decimales que el valor con el menor n\'umero de decimales utilizados en el c\'alculo.
+	\end{block}
+	
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[t]{Ejemplo} %[allowframebreaks, allowdisplaybreaks, t]
+	Exprese los resultados de los siguientes c\'alculos tomando en cuenta la gu\'ia anterior.
+	
+	\vspace{1.5ex}
+		
+	\begin{columns}
+		\col
+		
+		\textbf{A)}
+		$$0.2385~\text{g} + 25.8~ \text{g} = 26.0385~\text{g}$$
+		
+		Redondeando:
+		
+		$$26.0385~\text{g} \approx 26~\text{g} $$
+		
+		\col
+		\textbf{B)}
+			$$5.5~\text{cm} \times 3.356 ~\text{cm} = 18.458~\text{cm}^2$$
+		
+		Redondeando:
+		
+		$$18.458~\text{cm}^2 \approx 18.5~\text{cm}^2$$
+						
+	\end{columns}
+		
+\end{frame}
+
+\begin{frame}{Notaci\'on cient\'ifica}
+	Por lo general, los exponentes con base 10 se utilizan en la notaci\'on cient\'ifica para expresar n\'umeros en forma abreviada.
+	
+	$$10^{-3} = \frac{1}{10^3} = \frac{1}{1,000} = 0.001$$
+	
+\end{frame}
+
+\begin{frame}
+	
+	Se tiene que colocar un signo de multiplicaci\'on y el n\'umero 10 a la derecha de los d\'igitos enteros significativos. Luego, un exponente indicar\'a el n\'umero de posiciones que el punto se mover\'a, es decir, n\'umeros superiores a 10, se utiliza un exponente positivo, y para n\'umeros menores a 1 el exponente es negativo	
+\end{frame}
+
+\begin{frame}[t]{Ejemplo}
+	\begin{columns}
+		\col
+		\textbf{A)}
+		$$4,003,000,000.0 = 4.003 \times 10^9 $$
+		\textbf{B)}
+		$$65.0 = 6.5 \times 10^1$$
+		\textbf{C)}
+		$$60.29 \times 10^{22} = 6.029 \times 10^{23}$$
+				
+		\col
+		\textbf{D)}
+		$$0.0000000025 = 2.5 \times 10^{-8}$$
+		\textbf{F)}
+		$$0.0002001 = 2.001 \times 10^{-4}$$
+		\textbf{G)}
+		$$528.69 \times 10^{-7} = 5.2869 \times 10^{-5}$$
+				
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{Prefijos m\'etricos} %[allowframebreaks, allowdisplaybreaks] M\'ultiples diapositivas
+	
+	\begin{table}
+		\caption{Prefijos m\'etricos}
+		\begin{tabular}{lcc}
+			\hline
+			Prefijo & Abreviatura & Exponente \\
+			\hline
+			giga- & G & $10^9$ \\
+			mega- & M & $10^6$ \\
+			kilo- & K & $10^3$ \\
+			mili- & m  & $10^{-3}$ \\
+			micro- & $\mu$  & $10^{-6}$ \\
+			nano- & n & $10^{-9}$ \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+\end{frame}
+
+\begin{frame}{Factor de conversi\'on}
+	El factor de conversi\'on es una relaci\'on num\'erica igual a 1.
+
+	\vspace{1.2ex}	
+
+	\begin{columns}
+		\col
+		$$\frac{1 \times 10^6~ \mu L}{1~ \text{L}}$$
+			
+		\col
+		$$\frac{1~ \text{L}}{1 \times 10^6~ \mu L}$$
+		
+	\end{columns}
+	
+	\vspace{1.2ex}
+	
+	Cuando se realizan conversiones aparecen t\'erminos similares en el numerador o denominador, pueden ser cancelados. Por ejemplo, convertir $3 \times 10^{-4}~ \text{L}$ a microlitros.
+	
+	
+\end{frame}
+
+\begin{frame}[t]{Ejemplo I}
+	\begin{columns}
+		\col
+		$$\text{\textbf{X}}~ \mu \text{L} = 3 \times 10^{-4}~ \text{L}$$
+		
+		$$\text{\textbf{X}}~ \mu \text{L} = 3 \times 10^{-4}~ \text{L} \times \frac{1 \times 10^6~ \mu L}{1~ \text{L}} $$
+		
+		
+		\col
+		Vamos a utilizar el factor de conversi\'on en relaci\'on con litros y microlitros. Los t\'erminos id\'enticos en el numerador y denominador se cancelan. 
+				
+	\end{columns}	
+	
+	\vspace{1.2ex}
+	
+	\begin{columns}
+		\col
+		$$\text{\textbf{X}}~ \mu \text{L} = (3 \times 1)(10^{-4} \times 10^{6}) \mu \text{L}$$
+		\vspace{-1.4ex}
+		$$\text{\textbf{X}}~ \mu \text{L} = 3 \times 10^{-4+6} \mu \text{L} $$
+		\vspace{-1.4ex}
+		$$3 \times 10^2\mu \text{L}$$
+		\col	
+		Se agrupan los t\'erminos similares, y se multiplican los numeradores. Por lo tanto:
+		
+		$$3 \times 10^2\mu \text{L} = 3 \times 10^{-4} ~\text{L}$$
+		
+	\end{columns}
+	
+\end{frame}
+
+
+\begin{frame}[t]{Aritm\'etica de n\'umeros en notaci\'on cient\'ifica}
+		
+	En la suma y resta se transforman los n\'umeros para que tengan el mismo exponente en base 10.
+	
+	\vspace{1.5ex}
+	
+	\begin{columns}
+		\col
+		\onslide<2->{
+		\textbf{Suma:}
+		$$(5 \times 10^3) + (2 \times 10^3)$$
+		$$(5 + 2) \times 10^3$$
+		$$7 \times 10^3$$}
+		\col
+		\onslide<3->{
+		\textbf{Resta: }
+		$$(8 \times 10^{-2}) - (\num{6e-3})$$
+		$$(\num{8e-2}) - (\num{0.6e-2})$$
+		$$(8-0.6) \times 10^{-2}$$
+		$$\num{7.4e-2}$$
+		}		
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}[t]
+	En la multiplicaci\'on y divisi\'on se aplica la regla del producto y cociente. Adem\'as de la propiedad conmutativa y asociativa.
+	%propiedad conmutativa ($3 \times 2 = 2 \times 3$)
+	%asociativa [$2 \times (3 \times 4) = (2 \times 3) \times 4 $]
+	\vspace{1.5ex}
+	\begin{columns}
+		\col
+		\onslide<2->{
+		\textbf{Multiplicaci\'on:}
+		$$(\num{4e4}) \times (\num{3e2})$$
+		$$(4 \times 3) \times (10^4 \times 10^2)$$
+		$$\num{12e6}$$
+		$$\num{1.2e7}$$
+		}
+		\col
+		\onslide<3->{
+		\textbf{Divisi\'on:}
+		$$\frac{\num{8.2e4}}{\num{3.6e-6}}$$
+		$$\frac{8.2}{3.6} \times 10^{4-(-6)}$$
+		$$\num{2.3e12}$$
+		}
+	\end{columns}
+	
+\end{frame}
+
+\section{Soluciones, mezclas y medios}
+
+\begin{frame}{Tabla de contenidos}
+	\tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}{Diluciones}
+
+	\begin{block}{Definici\'on}
+		\textbf{Concentraci\'on} es la cantidad de una determinada sustancia en un volumen dado.
+	\end{block}
+	
+	$$Concentraci\'on = \frac{Cantidad}{Volumen}$$
+	\just
+	De manera general en los laboratorios se preparan soluciones concentradas (soluci\'on madre) de los reactivos de uso com\'un. En algunas ocasiones se utilizan las soluciones madre para elaborar concentraciones menos concentradas. Por lo tanto, se realiza una \textbf{diluci\'on}.
+	
+\end{frame}
+
+\begin{frame}{Concentraciones}
+\begin{columns}
+	\column{0.5\textwidth}
+	Aqu\'i va la primera columna
+	
+	\column{0.5\textwidth}
+	Est\'a es la segunda columna
+\end{columns}
+\end{frame}
+
+\end{document}
