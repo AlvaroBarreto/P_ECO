@@ -13,7 +13,7 @@
 \usepackage{subcaption}
 \usepackage{ragged2e}
 \renewcommand{\arraystretch}{1.2}
-
+\author{Alvaro Barreto}
 \useinnertheme{rounded} %rectangles, rounded, inmargin, circles
 \usetheme{Dresden} %Hannover AnnArbor CambridgeUS Dresden
 %\usecolortheme{seahorse}
@@ -56,7 +56,7 @@
 \begin{document}
 
 % Presentaci\'on
-\author{Alvaro Barreto}
+%\author{Alvaro Barreto}
 \title{Matem\'aticas para el laboratorio}
 \subtitle{Soluciones, mezclas y medios}
 \titlegraphic{
@@ -287,7 +287,7 @@
 		\textbf{Concentraci\'on} es la cantidad de una determinada sustancia en un volumen dado.
 	\end{block}
 	
-	$$Concentraci\'on = \frac{Cantidad}{Volumen}$$
+	$$Concentraci\acute{o}n = \frac{Cantidad}{Volumen}$$
 	\just
 	De manera general en los laboratorios se preparan soluciones concentradas (soluci\'on madre) de los reactivos de uso com\'un. En algunas ocasiones se utilizan las soluciones madre para elaborar concentraciones menos concentradas. Por lo tanto, se realiza una \textbf{diluci\'on}.
 	
@@ -328,11 +328,12 @@
 \begin{frame}[allowframebreaks, allowdisplaybreaks] {C\'alculo de la concentraci\'on de un reactivo diluido}
 	\framesubtitle{M\'etodo II}
 	El m\'etodo de \textbf{an\'alisis dimensional} incorpora el factor de conversi\'on como parte de la f\'ormula y la ecuaci\'on es:
-	$$conc. ~ de~ partida \times factor ~de~ conversi\'on \times \frac{volumen ~desconocido}{volumen ~final} = conc. ~deseada$$
+	$$conc. ~ de~ partida \times factor ~de~ conversi\acute{o}n \times \frac{volumen ~desconocido}{volumen ~final} = conc. ~deseada$$
 	
 	Tomando el ejemplo anterior:
 	
 	$$\num{2e1}\% \times \frac{1 ~\text{mL}}{\num{1e3}~\mu \text{L}} \times \frac{x ~\mu \text{L}}{5 ~\text{mL}} = 3\%$$
+	
 	\vspace{2ex}
 	
 	$$\frac{\num{2e1}\% \times x~\mu \text{L}}{\num{5e3}} = 3\%$$
@@ -344,7 +345,43 @@
 \begin{frame}{Preparar soluciones en porcentaje}
 	
 	Muchos reactivos se preparan en porcentaje de un soluto disuelto en una soluci\'on. Por lo tanto, dependiendo del estado f\'isico del soluto se expresa en porcentaje peso en volumen (\%p/v) o en porcentaje volumen en volumen (\%v/v).
+	
+	En el porcentaje peso en volumen (\%p/v), el peso en soluto es expresado en gramos en un total de 100 mL de soluci\'on.
 
 \end{frame}
+
+\begin{frame}{Preparar soluciones en porcentaje}
+	\framesubtitle{Ejemplo I}
+	Preparar 50 mL de una soluci\'on de $NaCl$ al 8\%.
+	
+	$$\frac{8}{100} \times 50 = 4$$
+	
+	Por lo tanto, se necesitan 4 g de $NaCl$ en 50 mL de agua destilada para preparar la soluci\'on de $NaCl$ al 8\%.
+	
+\end{frame}
+
+\begin{frame}{Preparar soluciones en porcentaje}
+	\framesubtitle{Ejemplo II}
+	Preparar 500 mL de soluci\'on de etanol al 85\%.
+	
+	$$\frac{85}{100} \times 500 = 425$$
+	
+	Por lo tanto, para prepara una soluci\'on de etanol al 85\%, se necesita 425 mL de etanol al 100\% y se agregan 75 mL de agua destilada para obtener el volumen final de 500 mL. 
+	
+\end{frame}
+
+\begin{frame}{Preparar soluciones en porcentaje}
+		
+	Se tiene 2 mL de etanol al 95\% y se agregan 5 mL de agua destilada. \textquestiondown Cu\'al es la concentraci\'on final de la soluci\'on de etanol?
+	
+	$$C_1V_1 = C_2V_2$$
+	$$\frac{95}{100} \times 2 \text{mL} = \frac{C_2}{100} \times 7 \text{mL}$$
+	$$C_2 = \frac{95}{100} \times \frac{2 \text{mL}}{ 7 \text{mL}} \times 100 = 27$$
+	
+	Por lo tanto, la soluci\'on final es igual al 27\%.
+	
+\end{frame}
+
+
 
 \end{document}
