@@ -152,7 +152,7 @@
 	
 \end{frame}
 
-\begin{frame}{Prefijos m\'etricos} %[allowframebreaks, allowdisplaybreaks] M\'ultiples diapositivas
+\begin{frame}{Prefijos m\'etricos} 
 	
 	\begin{table}
 		\caption{Prefijos m\'etricos}
@@ -293,15 +293,58 @@
 	
 \end{frame}
 
-\begin{frame}{Concentraciones}
-\begin{columns}
+\begin{frame}[allowframebreaks, allowdisplaybreaks] {C\'alculo de la concentraci\'on de un reactivo diluido} %M\'ultiples diapositivas
+	\framesubtitle{M\'etodo I}
+	Se puede usar la ecuaci\'on $C_1V_1 = C_2V_2$
 	
-	\col
+	Donde:
+	\begin{itemize}
+		\item $C_1 =$ concentraci\'on inicial de la soluci\'on madre ("stock").
+		\item $V_1 =$ cantidad de soluci\'on madre para realizar la diluci\'on, es decir, \textbf{la cantidad que vamos a ocupar}.
+		\item $C_2 =$ la concentraci\'on de la muestra diluida.
+		\item $V_2 =$ el volumen total (\textbf{final}) de la muestra diluida.  
+	\end{itemize}
+	
+	Por ejemplo, se tiene una soluci\'on madre de sacarosa (az\'ucar) al 20\%, y se requiere 5 mL de una soluci\'on al 3\% de sacarosa. \textquestiondown Cu\'antos $\mu$L de soluci\'on madre se necesitan?
+	
+	\textbf{Paso 1:}
+	
+	Convertir los 5 mL a $\mu$L
+	
+	$$\frac{1~ \text{L}}{\num{1e3} ~\text{mL}} \times \frac{\num{1e6}~\mu \text{L}}{1~ \text{L}} \times 5 ~\text{mL} = (1 \times 5) \times 10^{6-3} ~\mu \text{L} = \num{5e3} ~\mu \text{L} $$ 
+	
+	\textbf{Paso 2:}
+	Aplicando la ecuaci\'on
+	$$C_1V_1 = C_2V_2$$
+	$$20\% \times V_1 = 3\% \times (\num{5e3})~\mu \text{L}$$	
+	$$V_1 = \frac{3\% \times (\num{5e3}~\mu \text{L})}{\num{2e1}\%} = \frac{15}{2} \times 10^{3-1} ~\mu \text{L} = \num{7.5e2} ~\mu \text{L}$$
+	
+	\textbf{Paso 3:} 
+	Aforando \\
+	Se necesitan \num{7.5e2} $\mu \text{L}$ de sacarosa al 20\% m\'as \num{4.25e3}$\mu \text{L}$ de agua ($\num{5e3}-\num{7.5e2}$). 
 		
-	\col
+\end{frame}
+
+\begin{frame}[allowframebreaks, allowdisplaybreaks] {C\'alculo de la concentraci\'on de un reactivo diluido}
+	\framesubtitle{M\'etodo II}
+	El m\'etodo de \textbf{an\'alisis dimensional} incorpora el factor de conversi\'on como parte de la f\'ormula y la ecuaci\'on es:
+	$$conc. ~ de~ partida \times factor ~de~ conversi\'on \times \frac{volumen ~desconocido}{volumen ~final} = conc. ~deseada$$
 	
+	Tomando el ejemplo anterior:
 	
-\end{columns}
+	$$\num{2e1}\% \times \frac{1 ~\text{mL}}{\num{1e3}~\mu \text{L}} \times \frac{x ~\mu \text{L}}{5 ~\text{mL}} = 3\%$$
+	\vspace{2ex}
+	
+	$$\frac{\num{2e1}\% \times x~\mu \text{L}}{\num{5e3}} = 3\%$$
+	
+	$$x = \frac{3\% \times \num{5e3}}{\num{2e1}\%} = \num{7.5e2}~\mu \text{L}$$
+	
+\end{frame}
+
+\begin{frame}{Preparar soluciones en porcentaje}
+	
+	Muchos reactivos se preparan en porcentaje de un soluto disuelto en una soluci\'on. Por lo tanto, dependiendo del estado f\'isico del soluto se expresa en porcentaje peso en volumen (\%p/v) o en porcentaje volumen en volumen (\%v/v).
+
 \end{frame}
 
 \end{document}
