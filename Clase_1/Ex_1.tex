@@ -2,11 +2,13 @@
 
 \usepackage[left=1.5cm,top=1cm,right=1.5cm,bottom=60pt]{geometry}
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{amsmath,amssymb ,amsfonts,xcolor,tikz}
 \usepackage{multicol}
 \usepackage[shortlabels]{enumitem}
 \usepackage{eso-pic}
 \usetikzlibrary{calc}
+\usepackage{framed}
 
 \definecolor{oroUnam}{rgb}{0.835, 0.624, 0.0588}
 \definecolor{azulUnam}{rgb}{0, 0.24, 0.47}
@@ -77,7 +79,7 @@ El ejercicio consiste en determinar la cantidad de cada reactivo que se debe de 
     
 \sect{Un poco de contexto}
 
-Supongamos que muy pronto finalizar\'a un experimento que tiene por objetivo determinar la influencia de la salinidad (3, 15, y 35 g/L) en la fisiolog\'ia digestiva del robalo blanco \textit{Centropomus undecimalis}. Por lo tanto, se necesita medir la actividad enzim\'atica del est\'omago, ciego e intestino. 
+Supongamos que muy pronto finalizar\'a un experimento que tiene por objetivo determinar la influencia de la salinidad (3, 15, y 35 g/L) en la fisiolog\'ia digestiva del robalo blanco \textit{Centropomus undecimalis}. Por lo tanto, se necesita medir la actividad enzim\'atica del est\'omago, ciego e intestino (ver figura~\ref{fig:ejercicio}). 
 
 \sect{An\'alisis de actividad enzim\'atica}
 
@@ -97,23 +99,23 @@ Supongamos que muy pronto finalizar\'a un experimento que tiene por objetivo det
 
 \begin{Exercice} \textbf{Proteasas alcalinas}
 	
-	Se utilizar\'a el método de Kunitz (1947) modificado por Walker (1984), usando como sustrato caseína al 1\% en tampón 100 mM Tris-HCl + 10 mM CaCl$_2$ a pH 9. Se le agregar\'a 0.5 mL de caseína, más 0.5 mL de tampón Tris-HCl 100 mM + CaCl$_2$ 10 mM a pH 9 y 10 $\mu$l de extracto enzimático, se incubar\'a por 10 minutos a 25 $^\circ$C, posteriormente la reacción se detendr\'a con 0.5 mL de \'acido tricloroacético (TCA) al 20\%, se centrifugar\'a a 12,000 rpm por 5 minutos, la actividad se definir\'a de acuerdo al apartado anterior.
+	Se utilizar\'a el método de Kunitz (1947) modificado por Walker (1984), usando como sustrato caseína al 1\% en tampón 100 mM Tris-HCl + 10 mM CaCl$_2$ a pH 9. Se le agregar\'a 0.5 mL de caseína, más 0.5 mL de tampón Tris-HCl 100 mM + CaCl$_2$ 10 mM a pH 9 y 10 $\mu$L de extracto enzimático, se incubar\'a por 10 minutos a 25 $^\circ$C, posteriormente la reacción se detendr\'a con 0.5 mL de \'acido tricloroacético (TCA) al 20\%, se centrifugar\'a a 12,000 rpm por 5 minutos, la actividad se definir\'a de acuerdo al apartado anterior.
 
 \end{Exercice}
 
 \begin{Exercice}\textbf{Tripsina}
 	
-	Se utilizar\'a el método de Erlanger et al. (1961), usando como sustrato BAPNA (N-$\alpha$- benzoil-DL-arginina 4-nitroanilida) al 3.5 mM en buffer Tris-HCl 50 mM + CaCl$_2$ 10 mM a pH 8, el BAPNA se diluir\'a previamente en 200 $\mu$l de DMSO. Para iniciar la reacción se mezclar\'a 990 $\mu$l del sustrato con 10 $\mu$l del extracto enzimático y se incubar\'a por 30 minutos a 25 $^\circ$C. La reacción se detendr\'a adicionando 250 $\mu$l de TCA al 20\%, se centrifugar\'a a 12,000 rpm por 5 minutos. La actividad se definir\'a de acuerdo a Dimes et al. (1994), como 1 $\mu$mol de p-nitroanilida hidrolizada por minuto, usando como coeficiente de extinción molar 8.2 a 410 nm.
+	Se utilizar\'a el método de Erlanger et al. (1961), usando como sustrato BAPNA (N-$\alpha$- benzoil-DL-arginina 4-nitroanilida) al 3.5 mM en buffer 50 mM Tris-HCl + 10 mM CaCl$_2$ a pH 8, el BAPNA se diluir\'a previamente en 200 $\mu$L de DMSO. Para iniciar la reacción se mezclar\'a 990 $\mu$L del sustrato con 10 $\mu$L del extracto enzimático y se incubar\'a por 30 minutos a 25 $^\circ$C. La reacción se detendr\'a adicionando 250 $\mu$L de TCA al 20\%, se centrifugar\'a a 12,000 rpm por 5 minutos. La actividad se definir\'a de acuerdo a Dimes et al. (1994), como 1 $\mu$mol de p-nitroanilida hidrolizada por minuto, usando como coeficiente de extinción molar 8.2 a 410 nm.
 	
 \end{Exercice}
 
 \begin{Exercice} \textbf{Quimotripsina}
 	
-	Se determinar\'a por el método de Lainé et al. (1993), utilizando como sustrato Suc-AAFP-pNA (N-succinyl-alanine-alanine-proline-phenylalanine-p-nitroanilide) disuelto en DMSO, como buffer Tris 0.1 M a pH 8. Para iniciar la reacción se agregar\'a en una celda de cuarzo 960 $\mu$l de buffer Tris y 10 $\mu$l de Suc-AAFP-pNA, despu\'es de esto se le agregar\'a 20 $\mu$l del extracto, se agitar\'a y medir\'a su absorbancia en el minuto uno y dos a 405 nm. La actividad se definir\'a como 1 $\mu$mol de p-nitroanilida hidrolizada entre el minuto uno y dos, usando como coeficiente de extinción molar 8.2 a 405 nm.
+	Se determinar\'a por el método de Lainé et al. (1993), utilizando como sustrato Suc-AAFP-pNA (N-succinyl-alanine-alanine-proline-phenylalanine-p-nitroanilide) al 1mM disuelto en DMSO. Para iniciar la reacción se agregar\'a en una celda de cuarzo 960 $\mu$L de buffer Tris 0.1 M a pH 8 y 10 $\mu$L de Suc-AAFP-pNA, despu\'es de esto se le agregar\'a 20 $\mu$L del extracto, se agitar\'a y medir\'a su absorbancia en el minuto uno y dos a 405 nm. La actividad se definir\'a como 1 $\mu$mol de p-nitroanilida hidrolizada entre el minuto uno y dos, usando como coeficiente de extinción molar 8.2 a 405 nm.
 	
 \end{Exercice}
 
-\begin{Exercice}\textbf{Peso molecular de reactivos disponibles en el laboratorio}
+\begin{Exercice}\textbf{Peso molecular (g/M) de reactivos disponibles en el laboratorio}
 	\begin{enumerate}[1)]
 		\item Tris-HCL: 157.6 
 		\item Tris: 121.14 
@@ -125,8 +127,22 @@ Supongamos que muy pronto finalizar\'a un experimento que tiene por objetivo det
 		\item BAPNA: 434.88
 		\item Suc-AAFP-pNA: 451.43
 		\item DMSO (es un solvente): 78.13
+		\item Agua: 18.02 g/mol
 	\end{enumerate}
 \end{Exercice}
 
 \end{multicols}
+
+\begin{figure}[h]
+	\begin{leftbar}
+		
+		\includegraphics[width=\textwidth]{ejercicio.png}
+		\centering
+		\caption{\textit{Diagrama del an\'alisis de actividad enzim\'atica del robalo blanco \textit{Centropomus undecimalis} cultivados en salinidades de 3, 15, y 35 g/L.}}
+		\label{fig:ejercicio}
+		
+	\end{leftbar}
+	
+\end{figure}
+
 \end{document} 
