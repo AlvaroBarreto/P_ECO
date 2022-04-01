@@ -1591,8 +1591,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="649.30688"
-     inkscape:cy="443.76475"
+     inkscape:cx="589.02809"
+     inkscape:cy="633.11952"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2866,7 +2866,7 @@
            y="118.97321"
            x="149.1116"
            id="tspan28663"
-           sodipodi:role="line">Glicina-HCl 0.1 M a pH 3</tspan></text>
+           sodipodi:role="line">0.1 M Glicina-HCl a pH 3</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path28667"
@@ -3164,7 +3164,7 @@
            style="font-size:2.82222223px;stroke-width:0.26458332"
            y="232.06296"
            x="152.81593"
-           sodipodi:role="line">Tris-HCl 50 mM + 10 mM CaCl2  </tspan><tspan
+           sodipodi:role="line">50 mM Tris-HCl + 10 mM CaCl2  </tspan><tspan
            id="tspan28813"
            style="font-size:2.82222223px;stroke-width:0.26458332"
            y="237.35461"
@@ -3271,7 +3271,7 @@
            y="276.58929"
            x="160.71539"
            id="tspan28871"
-           sodipodi:role="line">Tris 0.1 M</tspan></text>
+           sodipodi:role="line">0.1 M Tris </tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
