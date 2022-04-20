@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 610 610" version="1.1">
+  <g id="layer4" transform="translate(5 -397.36)">
+    <g id="g2988">
+      <text id="text4026" font-size="59.158px" font-family="eurofurence" xml:space="preserve" transform="translate(-182.7 1898.4)" line-height="125%" y="826.51544" x="-1070.3508" font-weight="bold" fill="#ffffff">
+        <tspan id="tspan4032" y="826.51544" x="-1070.3508"/>
+      </text>
+      <text id="text4039-0" font-size="35.711px" xml:space="preserve" transform="translate(-182.7 1898.4)" line-height="125%" y="431.01855" x="-934.51404" font-family="EurostileT" fill="#ffffff">
+        <tspan id="tspan4381-6" y="431.01855" x="-934.51404"/>
+      </text>
+      <path id="rect4640" fill="#4a0" transform="translate(-182.7 1898.4)" d="m427.98-1313.6c-10.664 0.2387-21.506 1.8599-32.249 4.8818-45.964 12.93-80.869 50.069-91.126 96.6-30.183 6.0261-56.037 28.253-64.942 59.913-12.642 44.942 13.639 91.65 58.581 104.29 0.73466 0.2073 1.4835 0.2578 2.2189 0.4437 6.2072 2.2197 12.834 3.5504 19.823 3.5504h325.9c11.663 0 22.39-3.5044 31.51-9.3198 36.426-17.392 56.274-58.786 44.971-98.967-8.3505-29.686-31.579-51.195-59.321-58.729-0.24086-0.9915-0.46095-1.9684-0.73967-2.9587-12.642-44.942-59.351-71.223-104.29-58.581-8.6272 2.427-16.581 6.2847-23.817 11.095-24.78-33.286-64.493-53.161-106.51-52.22z"/>
+      <rect id="rect5840" stroke-linejoin="round" ry="1.5381" height="600" width="600" stroke="#4a0" y="402.36" x="0" stroke-width="10" fill="none"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>eco green cloud icon</dc:title>
+        <dc:date>2012-05-21T17:00:56</dc:date>
+        <dc:description>climate, clip art, clipart, ecology, green cloud, icon, weather, </dc:description>
+        <dc:source>http://openclipart.org/detail/170145/eco-green-cloud-icon-by-cybergedeon</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dominiquechappard</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>climate</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>ecology</rdf:li>
+            <rdf:li>green cloud</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>weather</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

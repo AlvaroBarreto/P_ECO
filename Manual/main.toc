@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{I\hspace {1em}Ecofisiol\'ogia de Plantas}{1}{}%
+\contentsline {chapter}{\numberline {1}Determinaci\'on del potencial h\'idrico}{2}{}%
+\contentsline {section}{\numberline {1.1}Introducci\'on}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Componentes del potencial h\'idrico}{3}{}%
+\contentsline {subsection}{\numberline {1.1.2}Medici\'on del potencial h\'idrico}{5}{}%
+\contentsline {subsection}{\numberline {1.1.3}Principio}{6}{}%
+\contentsline {section}{\numberline {1.2}Objetivo general}{6}{}%
+\contentsline {section}{\numberline {1.3}Objetivo espec\'ifico}{6}{}%
+\contentsline {section}{\numberline {1.4}Materiales}{7}{}%
+\contentsline {subsection}{\numberline {1.4.1}Material requerido}{7}{}%
+\contentsline {subsection}{\numberline {1.4.2}Material por grupo}{8}{}%
+\contentsline {section}{\numberline {1.5}Metodolog\'ia}{8}{}%
+\contentsline {subsection}{\numberline {1.5.1}Preparaci\'on de reactivos}{8}{}%
+\contentsline {subsection}{\numberline {1.5.2}Procedimiento}{10}{}%
+\contentsline {section}{\numberline {1.6}Resultados}{10}{}%
+\contentsline {section}{\numberline {1.7}Cuestionario}{11}{}%
