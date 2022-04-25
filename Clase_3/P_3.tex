@@ -1,0 +1,160 @@
+\documentclass[12pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish, es-nodecimaldot]{babel}
+\uselanguage{spanish}
+\languagepath{spanish}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{ragged2e}
+\renewcommand{\arraystretch}{1.2}
+\author{Alvaro Barreto}
+\useinnertheme{rounded} %rectangles, rounded, inmargin, circles
+\usetheme{Dresden} %Hannover AnnArbor CambridgeUS Dresden
+%\usecolortheme{seahorse}
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+			\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+			\insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+	\end{beamercolorbox}}%
+	\vskip0pt%
+}
+\makeatother
+
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\definecolor{LightViolet}{RGB}{230,220,255}
+\setbeamercolor{frametitle}{bg=LightViolet}
+
+\definecolor{NormalBlue}{RGB}{200,200,255}
+\setbeamercolor{block title}{bg=NormalBlue}
+
+\definecolor{LightBlue}{RGB}{220,220,255}
+\setbeamercolor{block body}{bg=LightBlue}
+
+\setbeamercolor{block body example}{bg=red!20!white}
+\setbeamercolor{block title example}{fg=red, bg=red!40!white}
+
+\newcommand{\col}{\column{0.5\textwidth}}
+\newcommand{\just}{\justifying}
+
+\begin{document}
+	
+	\title{Extracci\'on de pigmentos vegetales}
+	\subtitle{Determinaci\'on de clorofila}
+	\titlegraphic{
+		\includegraphics[width=3.5cm]{ENES}
+	}
+	
+	\begin{frame}[plain]
+		\titlepage
+	\end{frame}
+	
+	\begin{frame}{Fotos\'intesis}
+		\textquestiondown \textbf{Para que sirve la fotos\'intesis}?
+		
+		\onslide<2->{La fotos\'intesis es el principal proceso que permite obtener la energía derivada del sol.
+		
+		Las plantas utilizan la energía solar para dividir el agua en oxígeno e hidrógeno. 
+				
+		El ATP y el NADPH son los productos finales de estas reacciones de luz que tienen lugar en los centros de reacción fotosint\'etica incrustados en las membranas.
+	
+		El ATP y el NADPH se consumen para la síntesis de carbohidratos a partir del CO$_2$ en las reacciones de fijación del carbono}
+		
+	\end{frame}
+	
+	\begin{frame}{Pigmentos fotosint\'eticos}
+		
+		Los pigmentos fotosintéticos son los responsables de absorber y atrapar energía luminosa en los primeros pasos de la fotosíntesis. %Son compuestos químicos que sólo reflejan ciertas longitudes de onda de la luz visible, pero más importante que su reflejo de la luz es la capacidad de los pigmentos de absorber ciertas longitudes de onda.
+		
+		Los pigmentos fotosintéticos son útiles para las plantas porque interactúan con la luz para absorber sólo ciertas longitudes de onda y la energía de estos fotones es capturada para la fotosíntesis.
+		
+	\end{frame}
+
+	\begin{frame}
+			\includegraphics[width=300px]{energia_foto.png}
+		\centering
+	\end{frame}
+
+	\begin{frame}{Clorofila}
+		Las clorofilas son los pigmentos que dan a las plantas su color verde caracter\'istico.
+		Constituyen aproximadamente el 4\% del cloroplasto (en peso seco). La clorofila\textit{-b} se presenta como un tercio del contenido de la clorofila\textit{-a}. Por lo tanto, la clorofila\textit{-a} es un componente de los centros de reacción fotosintéticos y podemos considerarla como el pigmento fotosintético esencial. 
+		
+	\end{frame}
+
+	\begin{frame}
+		\includegraphics[width=300px]{energia_foto_2.png}
+		\centering
+	\end{frame}
+
+	\begin{frame}
+		El estudio de estos pigmentos es realmente interesante desde el punto de vista punto de vista ecofisiológico y nos da información sobre la diversidad, productividad, distribución, limitación de nutrientes, y degradación.
+		
+		Los cambios en la abundancia y composición de los pigmentos fotosintéticos suelen estar relacionados con la fotoaclimatación, que es una aclimatación a largo plazo a la irradiación.
+		
+	\end{frame}
+
+	\begin{frame}[allowframebreaks, allowdisplaybreaks, t]{Laboratorio}
+		
+		\begin{enumerate}
+			\item Se va preparar 100 mL de acetona al 80\%. Por lo que se utilizar\'a una probeta de 100 mL
+			\item Pesar 5 g de hoja de mangle
+			\item Colocar las hojas de mangle en la capsula de porcelana, agregar 5 mL de acetona al 80\% y triturarla con el pistilo
+			\item Después de triturarlo bien, pasar el contenido a un vaso de precipitado de 50 mL y agregar 5 mL de acetona
+			\item Tapar el vaso de precipitado con aluminio
+			\item Dejar reposar por 30 min
+			\item Colocar el embudo en el matraz erlenmeyer 500 mL 
+			\item Colocar el filtro en el embudo
+			\item Vaciar el contenido del vaso de precipitado en el embudo con el filtro 
+			\item Pasar el contenido filtrado a otro vaso de precipitado limpio de 50 mL 
+			\item Colocar 1 mL de acetona (80\%) en una celda de cuarzo 
+			\item Colocar 1 mL de la extracci\'on de clorofila en otra celda de cuarzo
+			\item Medir la absorbancia en las longitudes de onda de 647, 664, y 750 nm.
+			\item Anotar los resultados 
+		\end{enumerate}
+				
+	\end{frame}
+
+	\begin{frame}[allowframebreaks, allowdisplaybreaks, t]
+		Materiales y reactivos
+		\begin{itemize}
+			\item Probeta 100 mL (1) (\textbf{1 equipo})
+			\item Pipetas de 1-5 mL (2) (\textbf{1 equipo})
+			\item Pipetas de 100-1000 $\mu$L (2) (\textbf{1 equipo})
+			\item Celdas de cuarzo de 1 mL (2) (\textbf{1 equipo})
+			\item Vasos de desecho (2) y picetas de agua destilada (2) (\textbf{1 equipo})
+			\item Capsula de porcelana(1) y pistilo(1) (\textbf{todos})
+			\item Vasos de precipitado 50 mL (2) (\textbf{todos})
+			\item Matraz erlenmeyer 500 mL (1) (\textbf{todos})
+			\item Embudo (1) (\textbf{todos})
+			\item Papel filtro (1) (\textbf{todos})
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		Determinaci\'on de clorofila
+		
+		\begin{align}
+			Chl_a &= 12.25A_{664} - 2.55A_{647} \\
+			Chl_b &= 20.47A_{647} - 4.91A_{664} \\
+			Chl_{a + b} &= 17.76A_{647} + 7.34A_{664}
+		\end{align}
+		
+	\end{frame}
+
+\end{document}
